@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://photo.techrum.vn/images/2020/10/12/Uv87DR9ViWAptPHakAFMJM2fb5b66d4b2b8c26.jpg);
+	background-position:  center;
+	background-size: cover;
+	position: relative
+	}
+nav{
+	display: flex;
+	padding: 10% 5%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 600px;
+	margin: 0 auto;
+	padding: 2px 390px;
+}
+.text-box{
+	width:90%;
+	color: #fff;
+	position: absolute;
+	top: 85%;
+	left: 5%;
+	transform: translate;
+	text-align: center;
+}
+.text-box h1{
+	font-size: 20px;
+}
+.text-box p{
+	margin: 0px 0 40px;
+	font-size: 15px;
+	color: #fff;
+}
+.Map{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+	
+}
+p{
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 5px;
+}
+.Maps{
+	margin: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.Monsdstadts{
+	flex-basis: 30%;
+    border-radius: 0px;
+	margin-top: 0%;
+	padding: 50px 2px;
+	
+}
+.Liyues{
+	flex-basis: 30%;
+    border-radius: 0px;
+	margin-top: 0%;
+	padding: 50px 2px;
+
+}
+.Snezhnayas{
+	flex-basis: 30%;
+    border-radius: 0px;
+	margin-top: 0%;
+	padding: 50px 2px;
+	
+}
+.Character{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+.facilities{
+	flex-basis: 30%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	justify-content: space-between;
+}
+.facilities img{
+	margin: 5% 27% ;
+	display: flex;
+	justify-content: space-between;
+}
+.New{
+	font-size: 36px;
+	font-weight: 600;
+    width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.New img{
+	margin-top: 5%;
+}
+.Company {
+	margin-top: 10%;
+}
+    
+
+
